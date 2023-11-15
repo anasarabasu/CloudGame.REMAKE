@@ -10,7 +10,3 @@ hopefully things dont get too stressful so i can finish this in a couple of mont
 - proper music
 - some plot
 <br>
-
-## TODO
-1. skeleton
-2. art
