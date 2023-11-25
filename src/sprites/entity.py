@@ -1,11 +1,16 @@
 import pygame
 
+
 class Entity:
     def __init__(self, rect):
         self.hitbox = pygame.Rect(rect)
+        self.showHitbox = False
 
-    def draw(self, surface, showHitbox):
-        if showHitbox: pygame.draw.rect(surface, "red", self.hitbox, 1)
+    def update(self, surface):
+        self.draw(surface)
+
+    def draw(self, surface):
+        if self.showHitbox: pygame.draw.rect(surface, "red", self.hitbox)
 
     def animate(self):
         pass

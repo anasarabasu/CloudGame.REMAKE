@@ -5,16 +5,18 @@
 ## CODE
 1. basics
    1. ~~basic movement~~
+      > xyz axis
    3. ~~basic world rendering~~
-   2. ~~collision~~
-   4. jump mechanics <<
+   4. ~~jump mechanics~~
+      > player readies before jump that determines how high and long they will jump
+   2. collision
    5. enemies
    5. game states
    6. animation
 
 2. define
     1. ~~fullscreen~~
-    2. slippy movement?
+    2. ~~slippy movement?~~
     3. spritesheet
 
 3. optimisation
@@ -31,8 +33,8 @@
 
 ## ART
 1. concept art
-    1. player
-    2. background
+    1. player <<
+    2. background <<
 
 - mc
 - helpers
